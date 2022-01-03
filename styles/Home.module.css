@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  padding: 32px;
 }
 
 .in {
@@ -19,8 +20,18 @@
   color: #333333;
 }
 
+.captionBox {
+  margin-top: 16px;
+}
+
 .caption {
-  font-size: 36px;
+  font-size: 28px;
+  color: #888888;
+  text-align: center;
+}
+
+.caption1 {
+  font-size: 24px;
   color: #888888;
   text-align: center;
   margin-top: 8px;
