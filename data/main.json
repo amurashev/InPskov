@@ -1,0 +1,82 @@
+{
+  "name": "Псков",
+  "established": 903,
+  "square": 2,
+  "location": {
+    "lng": 111,
+    "lat": 222
+  },
+  "phone": 8112,
+  "zipCode": "180***",
+  "timezone": 180,
+  "climate": {
+    "max": [
+      11,
+      9.3,
+      15.8,
+      25.2,
+      31.9,
+      33.6,
+      34.0,
+      34.0,
+      28.2,
+      19.7,
+      14.1,
+      12.4
+    ],
+    "avgMax": [
+      -3.8,
+      -2.1,
+      3.3,
+      11.6,
+      19.3,
+      21.5,
+      24.8,
+      22.8,
+      17.3,
+      9.0,
+      3.9,
+      -0.3
+    ],
+    "avg": -6.3,
+    "avgMin": -9.1,
+    "min": -31.6,
+    "precipitationRate": 48,
+    "humidity": 89,
+    "windSpeed": 2.1,
+    "jan": {
+      "max": 11,
+      "avgMax": -3.8,
+      "avg": -6.3,
+      "avgMin": -9.1,
+      "min": -31.6,
+      "precipitationRate": 48,
+      "humidity": 89,
+      "windSpeed": 2.1
+    }
+  },
+  "population": [
+    {
+      "year": 2018,
+      "value": 210501
+    },
+    {
+      "year": 2019,
+      "value": 210116
+    },
+    {
+      "year": 2020,
+      "value": 210340
+    },
+    {
+      "year": 2021,
+      "value": 209426
+    }
+  ],
+  "films": [
+    {
+      "title": "Особенности национальной политики",
+      "kpId": 77228
+    }
+  ]
+}
