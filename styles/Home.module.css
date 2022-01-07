@@ -1,38 +1,69 @@
 .box {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+.fader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  background-color: rgb(0 0 0 / 51%);
+  color: #ffffff;
+  z-index: 1;
+}
+
+.content {
   padding: 32px;
+
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.in {
-  background: #5CB85C;
-  color: #fff;
-  padding: 0px 16px;
-  margin-right: 8px;
+
+.h1 {
+font-size: 80px;
+font-family: 'Merriweather', serif;
+/* font-family: 'Oswald', sans-serif; */
 }
 
-.brand {
-  font-size: 84px;
-  font-weight: bold;
-  color: #333333;
+.description {
+  font-size: 20px;
+  line-height: 1.3;
+  max-width: 650px;
 }
 
-.captionBox {
+.list {
   margin-top: 16px;
+  display: flex;
 }
 
-.caption {
-  font-size: 28px;
-  color: #888888;
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  padding: 0 16px;
 }
 
-.caption1 {
-  font-size: 24px;
-  color: #888888;
-  text-align: center;
+.itemLabel {
+  font-weight: 700;
+}
+
+.itemValue {
   margin-top: 8px;
+  font-size: 32px;
 }
